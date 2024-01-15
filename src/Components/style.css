@@ -1,0 +1,135 @@
+/* styles.css */
+
+.autocomplete-chips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 70vw;
+    height: 60vh;
+    margin: 20px auto;
+  }
+  
+  .chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+  }
+  .imgsrc{
+    width: 1.5vw;
+    height: 1.5vh;
+   
+  
+    padding : 1rem;
+    padding-left: 0rem;
+  }
+  
+  .chip {
+    background-color: #bbd2bb;
+    color: #0e0a0a;
+    padding: 8px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #4caf50;
+  
+  }
+  
+  .chip span {
+    margin-right: 8px;
+  }
+  
+  .chip button {
+   
+    background-color: #bbd2bb ;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .autocomplete-dropdown {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items:center;
+    width: 50%;
+    max-height: 50vh;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 100%;
+    margin-top: 8px;
+  }
+  
+  .autocomplete-item {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+  }
+  
+  .autocomplete-item:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .no-results {
+    color: #ff0000;
+    margin-top: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .autocomplete-chips {
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  /* Optional: Add additional styling for a nice header */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Optional: Add additional styling for a nice border around the component */
+  .autocomplete-chips {
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  /* Optional: Style the dropdown to make it look cleaner */
+  .autocomplete-dropdown {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Style the input for better visual separation */
+  input {
+    border-bottom: 2px solid #4caf50;
+  }
+  
