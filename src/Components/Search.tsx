@@ -45,7 +45,7 @@ const SeacrhComponent: React.FC = () => {
     const value = event.target.value;
     setInputValue(value);
     //if the input field is zero show the users 
-    if(value.length == 0){
+    if(value.length === 0){
       setFilteredUsers(
         users
           .filter(
